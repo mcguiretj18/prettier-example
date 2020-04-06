@@ -2,6 +2,3 @@ dist
 node_modules
 coverage
 build
-
-# No longer needed...
-# package.json
