@@ -6,8 +6,12 @@
   "author": "Thomas McGuire",
   "license": "MIT",
   "scripts": {
-    "pre-commit": "lint-staged",
     "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "devDependencies": {
     "eslint": "^6.8.0",
