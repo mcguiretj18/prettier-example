@@ -1,0 +1,5 @@
+node_modules
+.vscode
+
+# Mac Users
+.DS_Store
