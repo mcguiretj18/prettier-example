@@ -6,7 +6,7 @@
   "author": "Thomas McGuire",
   "license": "MIT",
   "scripts": {
-    "precommit": "npm run format && git add .",
+    "pre-commit": "lint-staged",
     "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\""
   },
   "devDependencies": {
